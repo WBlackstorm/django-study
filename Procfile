@@ -1,1 +1,1 @@
-web: gunicorn application/application.wsgi
+web: sh -c 'cd application && gunicorn application.wsgi'
